@@ -1,7 +1,6 @@
 import torch
 from transformers import BartForConditionalGeneration, BartTokenizer
 import requests
-import json
 from dotenv import load_dotenv
 import os
 
@@ -37,19 +36,16 @@ def fetch_news_data(topic):
         print(f"Error fetching news data: {e}")
         raise
 
-# Example usage
-lang_chain_input_topic = 'Gujarat'  # Replace with your desired topic
-news_data = fetch_news_data(lang_chain_input_topic)
+def summarize_topic(topic):
+    # Example usage
+    lang_chain_input_topic = topic 
+    news_data = fetch_news_data(lang_chain_input_topic)
 
-# Convert News Data to JSON
-json_news_data = json.dumps(news_data, indent=2)
-print(json_news_data)
-# Concatenate text from all news articles
-all_text = ". ".join([f"{article.get('title', '')}. {article.get('description', '')}" for article in news_data])
+    # Concatenate text from all news articles
+    all_text = ". ".join([f"{article.get('title', '')}. {article.get('description', '')}" for article in news_data])
 
-# Generate summary for all concatenated text
-combined_summary = generate_summary(all_text)
+    # Generate summary for all concatenated text
+    combined_summary = generate_summary(all_text)
 
-# Display results
-print("Combined Summary:")
-print(combined_summary)
+    return combined_summary
+
