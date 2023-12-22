@@ -1,22 +1,18 @@
-# LaMDA-powered Summarization Platform
+# Summarization Platform: "Insightful Summaries in a Snap"
 
-## Project Title:
+## Project Description
 
-LaMDA-powered Summarization Platform: "Concise Insights at Your Fingertips"
+The Summarization Platform is an innovative tool developed to provide users with comprehensive and insightful summaries on a wide range of topics. By leveraging Next.js for the client-side and Flask for the server-side, the platform offers natural language summaries sourced from diverse outlets, enabling users to quickly grasp the essence of any subject.
 
-## Project Description:
-
-The LaMDA-powered Summarization Platform is an innovative tool developed to provide users with comprehensive and insightful summaries on a wide range of topics. By leveraging LaMDA and Next.js for the client-side, and Flask for the server-side, the platform offers natural language summaries sourced from diverse outlets, enabling users to quickly grasp the essence of any subject.
-
-## Key Features:
+## Key Features
 
 - **Natural Language Search:** Users can input any topic or statement, and the platform will intelligently search relevant information from various sources, including news articles, websites, and APIs.
-- **LaMDA-powered Summarization:** The platform utilizes LaMDA's advanced capabilities to generate natural language summaries that capture key points and essential information.
+- **Advanced Summarization:** Utilizing a powerful summarization model, the platform generates natural language summaries that capture key points and essential information.
 - **Multiple Information Sources:** Information is aggregated from a variety of sources, providing users with a broader perspective on any topic.
 - **User-friendly Interface:** Built with Next.js, the platform offers a clean and intuitive interface for easy navigation, topic selection, and summary presentation.
-- **Open-source Approach:** The platform is built using open-source resources like LaMDA and Hugging Face models, ensuring accessibility and transparency.
+- **Open-source Approach:** The platform is built using open-source resources, ensuring accessibility and transparency.
 
-## Benefits:
+## Benefits
 
 - Save time and effort by quickly grasping the essence of any topic.
 - Enhance information comprehension with clear and concise summaries.
@@ -24,7 +20,7 @@ The LaMDA-powered Summarization Platform is an innovative tool developed to prov
 - Improve research and learning efficiency.
 - Enjoy a user-friendly and accessible platform.
 
-## Installation and Usage:
+## Installation and Usage
 
 ### Prerequisites
 
